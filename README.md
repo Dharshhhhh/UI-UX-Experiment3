@@ -68,51 +68,17 @@ Aesthetic and Minimalist Design
 
 ### 5. Heuristic Evaluation Summary
 
-| **Heuristic**                       | **Zomato**                                                                             | **Swiggy**                                       | **Uber Eats**                                                |
-| ----------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------------------ |
-| **Visibility of System Status**     | Real-time updates for delivery, but ETA not always accurate.                           | Smooth live tracking with step indicators.       | ETA shown clearly but sometimes loads slowly.                |
-| **Consistency and Standards**       | Consistent colors and icons, but checkout layout changes across screens.               | Very consistent interface; standard icons.       | Consistent design but minor label inconsistencies.           |
-| **User Control and Freedom**        | Limited undo options while editing cart items.                                         | Easy to remove or modify items.                  | Allows quick undo of recent actions.                         |
-| **Error Prevention**                | Sometimes confirms wrong address; “Place Order” button too close to quantity controls. | Good address validation, few accidental actions. | Occasionally repeats payment failure without proper warning. |
-| **Aesthetic and Minimalist Design** | Visually appealing dark-red theme but overloaded with offers and banners.              | Clean, simple, less visual clutter.              | Balanced but too many promotional pop-ups.                   |
+| Heuristic      | App 1: Swiggy | App 2: Zomato                 |
+| -------------- | ------------- | ----------------------------- |
+| Ease of Use    | Very easy     | Easy                          |
+| Navigation     | Clear         | Sometimes crowded             |
+| Visual Design  | Clean         | More colourful, slightly busy |
+| Error Handling | Good          | Good                          |
+| Speed          | Fast          | Fast                          |
 
+### OUTPUT
 
-### 6. Key Findings
-
-Zomato provides a strong visual identity and clear navigation but suffers from information overload due to excessive banners and pop-ups.
-
-Swiggy performs best overall in consistency and clarity, offering smoother interactions and minimal visual noise.
-
-Uber Eats maintains good design standards but occasionally struggles with slow response times and redundant payment prompts.
-
-All three platforms can enhance error prevention, confirmation dialogs, and personalized recommendations for frequent users.
-
-### 7. Recommendations
-
-Improve Checkout Flow:
-Introduce a clear confirmation step and allow users to easily undo or edit items in the cart.
-
-Enhance ETA Accuracy:
-Add a visual progress tracker showing each stage of order delivery (preparing, picked up, on the way, arriving).
-
-Reduce Visual Clutter:
-Limit promotional banners on the home screen and move secondary offers into a collapsible “Deals” section.
-
-Consistent Interface:
-Use the same color, button placement, and icons across all screens to reduce confusion.
-
-Better Error Handling:
-Replace technical error messages with friendly, action-oriented prompts (e.g., “Retry Payment” or “Change Address”).
-
-Personalized Recommendations:
-Suggest frequently ordered items or restaurants to improve efficiency and user satisfaction.
-
-### 8. Conclusion
-
-Among the evaluated apps, Swiggy offers the most seamless and consistent user experience, while Zomato excels in visual appeal and brand identity but needs better control features and reduced clutter.
-Uber Eats maintains a balanced design but can improve on speed and responsiveness.
-
-Implementing the recommended design changes—particularly in checkout clarity, error prevention, and visual simplification—can significantly improve usability, reduce cart abandonment, and enhance overall customer trust and engagement.
+After evaluating both apps using 5 basic heuristics, I found that Swiggy is cleaner and easier to navigate, while Zomato has a richer but slightly crowded interface. I recommend simplifying Zomato’s home page and improving Swiggy’s filter responsiveness
 
 ## Result:
 Thus, the Heuristic Evaluation of an Existing Website or App is created and verified.
